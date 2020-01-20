@@ -1,0 +1,2 @@
+# WN20_WEB150_INTRO_TO_JAVASCRIPT
+WN20_WEB150_INTRO_TO_JAVASCRIPT  for Winter 2020 quarter at Seattle Central College
