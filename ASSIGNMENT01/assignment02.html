@@ -1,0 +1,57 @@
+<!DOCTYPE  HTML  >
+<!-- WN20 WEB 150 SCC  -->
+<!-- NAME: Eric Rodriguez -->
+<!-- DATE: 2020/01/18 -->
+<!-- Assignment 02 -->
+<!-- PURPOSE:  
+     Code a program that  accepts user input for the name as well 
+     as two numbers to add as per screenshots below. Hint: Use 
+     prompt to get user input. You will need to store the user input 
+     in variables. 
+     Prompt returns a string, so you will need to convert the numbers 
+     to integers using ParseInt.
+-->
+
+<html>
+
+    <head>
+        
+    </head>
+
+    
+    <body>
+        
+        <script>
+            // use prompt to get user's name
+            var userName = prompt("Let's play the sum game. \n" +
+                                  "Please enter your name", "<name goes here>");
+
+
+            // use prompt to get user's first number
+            var userNum01 = prompt("Enter first number", "<first  number goes here>");
+            // convert input of string type to number; use float vs. int to be more flexible 
+            var num01 = parseFloat(userNum01); 
+
+
+            // use prompt to get user's second number
+            var userNum02 = prompt("Enter second number", "<second number goes here>");
+            // convert input of string type to number; use float vs. int to be more flexible
+            var num02 = parseFloat(userNum02);
+
+
+            // create sum
+            var sum = num01 + num02 ;
+
+            
+            // product final display
+            document.write("<h1> Hi, " + userName + "! The sum of " + 
+                           userNum01 + " + " +  
+                           userNum02 + " is " + 
+                           sum + " <br> </h1>");
+
+
+        </script>
+        
+    </body>
+        
+</html>
